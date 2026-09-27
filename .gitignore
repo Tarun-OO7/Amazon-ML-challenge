@@ -1,0 +1,22 @@
+# Datasets (large files > 100MB cannot be pushed to GitHub)
+student_resource/dataset/
+*.tar.gz
+*.zip
+
+# Outputs > 100MB (GitHub limit)
+output/candidate_pairs.tsv
+
+# Python & System
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.venv/
+venv/
+*.log
+
+# Ignore large model files and data
+*.pt
+cleaned_dataset/
+# Ignore large dataset test set (store externally or use Git LFS)
+output/

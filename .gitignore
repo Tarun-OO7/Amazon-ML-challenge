@@ -20,3 +20,5 @@ venv/
 cleaned_dataset/
 # Ignore large dataset test set (store externally or use Git LFS)
 output/
+outputs/candidate_pairs.tsv
+outputs/candidate_pairs_V1.tsv
